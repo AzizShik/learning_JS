@@ -1,0 +1,31 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AzizShik/learning_JS.git"
+  },
+  "author": "Abdyl-Aziz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AzizShik/learning_JS/issues"
+  },
+  "homepage": "https://github.com/AzizShik/learning_JS#readme",
+  "dependencies": {
+    "del": "^6.0.0",
+    "eslint": "^7.29.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "browser-sync": "^2.27.1",
+    "gulp-babel": "^8.0.0"
+  }
+}
