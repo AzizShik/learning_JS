@@ -1,1 +1,1 @@
-# learning_JS
+# learning_JS Ethan Brown
