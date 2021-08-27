@@ -1,0 +1,132 @@
+// VARS
+$black: #000;
+$white: #fff;
+
+$main: white;
+$second: black;
+$btn: blue;
+$btnHover: yellow;
+
+$linkHover: rgb(187, 158, 158);
+
+$text: #1d262d;
+$textSecond: #fff;
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  background: $black;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+
+  color: $textSecond;
+  font-size: 1.6rem;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.main {
+  flex: 1 1 auto;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.descr {
+  font-weight: 500;
+  font-size: 2.4rem;
+}
+
+.btn {
+  background: $btn;
+  border: transparent;
+  outline: transparent;
+  border-radius: 4px;
+
+  color: $textSecond;
+  padding: 15px 25px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+
+.page-lock{
+  overflow-y: hidden;
+}
+
+
+@media (hover: hover) {
+  .btn:hover {
+    background: $btnHover;
+    color: $text;
+  }
+  .header__link:hover {
+    color: $linkHover;
+  }
+
+  .header__logo:hover {
+    path {
+      fill: $btnHover;
+    }
+  }
+
+  .modal__close:hover {
+    color: #000;
+    background: #fff;
+  }
+
+  .progress:hover .progress__arrow{
+    color: yellow;
+  }
+
+  .progress:hover {
+    svg {
+      circle{
+        stroke: yellow;
+      }
+    }
+  }
+
+  .header__link:hover:before{
+    height: 5px;
+    opacity: 1;
+    visibility: visible;
+  }
+  .header__link:hover:after{
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+

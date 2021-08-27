@@ -1,31 +1,48 @@
 {
-  "name": "learning",
+  "name": "worktemplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "browser-sync": "^2.26.14",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-tinypng-compress": "^1.2.5",
+    "gulp-uglify": "^3.0.2",
+    "normalize.css": "^8.0.1",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.1",
+    "gulp-webp": "^4.0.1",
+    "sass": "^1.38.0",
+    "smart-grid": "^2.1.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AzizShik/learning_JS.git"
+    "url": "git+https://github.com/AzizShik/worktemplate.git"
   },
-  "author": "Abdyl-Aziz",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AzizShik/learning_JS/issues"
+    "url": "https://github.com/AzizShik/worktemplate/issues"
   },
-  "homepage": "https://github.com/AzizShik/learning_JS#readme",
-  "dependencies": {
-    "del": "^6.0.0",
-    "eslint": "^7.29.0",
-    "gulp": "^4.0.2",
-    "gulp-eslint": "^6.0.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/preset-env": "^7.14.7",
-    "browser-sync": "^2.27.1",
-    "gulp-babel": "^8.0.0"
-  }
+  "homepage": "https://github.com/AzizShik/worktemplate#readme"
 }
